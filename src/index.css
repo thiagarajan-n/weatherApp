@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: grid;
+  width: auto;
+  height: auto;
+  background-color: skyblue;
+}
+
+.table-flex {
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 699px){
+  .table-flex {
+    padding: 0 35%;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+  }
+}
+
+.table-flex td, th {
+  padding : 15px;
+  width: 100%;
+}
