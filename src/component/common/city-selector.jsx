@@ -18,7 +18,7 @@ class CitySelector extends React.Component {
     }
     render() {
         return (
-            <div className="Fancybu">
+            <div className="city_col">
                 <h4>Choose a City to see its temperature</h4>
                 <label>
                     <input type="radio" value="4726206" checked={this.state.selectedSA} onClick={this.handleRadioClick}/>

@@ -2,7 +2,12 @@
 This a demo project built in two pieces.
 
 This is UI project built using React. The backend code is build using Spring.
-![Alt text](/UI_screenshot.png?raw=true "Optional Title")
+
+Mobile View
+![Alt text](/UI_Mobile_view.png?raw=true "Optional Title")
+
+Desktop View
+![Alt text](/UI_desk_view.png?raw=true "Optional Title")
 To start the UI code, follow the steps.
 1. Clone the project
 2. Do npm install
